@@ -29,10 +29,18 @@ function App() {
       <p className="message">{`step ${step} : ${messages[step - 1]}`}</p>
 
       <div className="buttons">
-        <button className="previous" style={{backgroundColor:'#7950f2',color:'white'}} onClick={previousClick}>
+        <button
+          className="previous"
+          style={{ backgroundColor: "#7950f2", color: "white" }}
+          onClick={previousClick}
+        >
           Previous
         </button>
-        <button className="next" style={{backgroundColor:'#7950f2',color:'white'}} onClick={nextClick}>
+        <button
+          className="next"
+          style={{ backgroundColor: "#7950f2", color: "white" }}
+          onClick={nextClick}
+        >
           Next
         </button>
       </div>
